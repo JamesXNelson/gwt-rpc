@@ -45,7 +45,7 @@ public class Processor extends AbstractProcessor {
     private static final String knownTypesFilename = "knownTypes.txt";
 
     private static final String GENERATED_ANNOTATION_JDK9 = "javax.annotation.processing.Generated";
-    private static final String GENERATED_ANNOTATION_LEGACY = "javax.annotation.Generated";
+    private static final String GENERATED_ANNOTATION_LEGACY = "jakarta.annotation.Generated";
 
     private TypeElement serializationStreamReader;
     private TypeElement serializationStreamWriter;

@@ -60,7 +60,7 @@ import java.util.stream.Stream;
 
 public class EndpointProcessingStep implements ProcessingStep {
 	private static final String GENERATED_ANNOTATION_JDK9 = "javax.annotation.processing.Generated";
-	private static final String GENERATED_ANNOTATION_LEGACY = "javax.annotation.Generated";
+	private static final String GENERATED_ANNOTATION_LEGACY = "jakarta.annotation.Generated";
 
 	private final ProcessingEnvironment processingEnv;
 
